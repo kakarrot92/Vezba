@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 .main-section {
     width: 50%;
     float: right;
@@ -13,4 +16,26 @@
      margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+}
+.early-life {
+    background-color: lightblue;
+}
+
+.coils {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.list {
+    text-align: center;
+    padding-top: 20px;
+}
+.list li {
+    display: inline-block;
+    padding-right: 20px;
+   
+}
+.list a {
+    text-decoration: none;
+    font-size: 20px;
 }
